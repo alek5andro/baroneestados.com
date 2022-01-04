@@ -1,12 +1,14 @@
 
-var images = ["{% static 'bg/wp.jpg' %}",
-"{% static 'bg/wp1.jpg' %}",
-"{% static 'bg/wp1.jpg' %}",
-"{% static 'bg/wp1.jpg' %}",
-"{% static 'bg/wp1.jpg' %}",
-"{% static 'bg/wp1.jpg' %}",
-"{% static 'bg/wp1.jpg' %}"
+
+var images = ["bg/wp.jpg",
+"bg/wp1.jpg",
+"bg/wp1.jpg",
+"bg/wp1.jpg",
+"bg/wp1.jpg",
+"bg/wp1.jpg",
+"bg/wp1.jpg"
 ];
+
 
 var img = document.getElementById("img");
 
