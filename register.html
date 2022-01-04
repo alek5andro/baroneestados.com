@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="style/rg.css">
+</head>
+
+<body>
+    <div class='bold-line'></div>
+    <div class='container'>
+        <div class='window'>
+            <div class='overlay'></div>
+            <div class='content'>
+                <div class='welcome'>Hello There!</div>
+                <div class='subtitle'>REGISTER HERE</div>
+                <div class='input-fields'>
+                    {% comment %} <form action="/register/" method="POST">
+                        {% csrf_token %}
+                        <label>Email</label><br>
+                        <input type="email" name="email"><br>
+                        <label>Password</label><br>
+                        <input type="password" name="password"><br>
+                        <label>Confirm Password</label><br>
+                        <input type="password" name="retype_password"><br>
+                        <input type="submit" value="Register">
+                    </form> {% endcomment %}
+                    <form action="registerr" method="POST">
+                   
+                        <div><button class='ghost-round full-width'> <input type="submit" name="Create User">
+                            </button>
+
+
+                            <button><a href="/">home</a></button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

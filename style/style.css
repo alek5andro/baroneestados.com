@@ -1,0 +1,114 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin: 0;
+
+}
+body {
+    background-image: url("{% static 'bg/wp.jpg' %}");
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+.navbgcolor{
+    background-color:black;
+    
+
+}
+
+
+.navbtn{
+    color: white;
+}
+
+.menuhome{
+    block-size: 50px;
+    position:absolute;    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center!important;
+}
+
+.btnhome{
+    font-size: 80px;
+    color: black;
+
+    color: #ffe;
+}
+
+.menuhome2{
+    font-size: 40px;
+}
+.btnhome1{
+   
+    color:#fff!important;background-color:#000!important;
+    font-size: 36px;
+    border: #ddc642 5px solid;
+}
+.bghome{
+    font-family: "Amatic SC", sans-serif;
+
+    
+}
+.btn1{
+    order: none;
+    display: inline-block;
+
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.opentime{
+    font-size: 24px!important;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.open-tag{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+
+
+.sp {
+    background-color: rgb(253, 255, 255);
+    margin: 0;
+    padding: 02rem 0.2rem;
+    padding: 0;
+    text-align: center;
+  }
+
+  .sp2 {
+    display: inline-block;
+    border: none;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+  .footer {
+        text-align: center;
+        background-color: black;
+        font-size: 12px;
+    color: honeydew;
+  }
+  .btnm {
+color: gold;
+border: none;
+background-color: black;
+border-left: black 15px solid;
+border-right: black 15px solid;
+  }
+  .spanf {
+      color: rgb(206, 182, 47);
+  }

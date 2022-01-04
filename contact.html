@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BAR ONE (ESTADOS CAFE)</title>
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="style/style.css'">
+        <style>
+           *{
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin: 0;
+
+}
+body {
+    background-image: url("{% static 'bg/wp.jpg' %}");
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+.navbgcolor{
+    background-color:black;
+    
+
+}
+
+
+.navbtn{
+    color: white;
+}
+
+.menuhome{
+    block-size: 50px;
+    position:absolute;    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center!important;
+}
+
+.btnhome{
+    font-size: 80px;
+    color: black;
+
+    color: #ffe;
+}
+
+.menuhome2{
+    font-size: 40px;
+}
+.btnhome1{
+   
+    color:#fff!important;background-color:#000!important;
+    font-size: 36px;
+    border: #ddc642 5px solid;
+}
+.bghome{
+    font-family: "Amatic SC", sans-serif;
+
+    
+}
+.btn1{
+    order: none;
+    display: inline-block;
+
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.opentime{
+    font-size: 24px!important;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.open-tag{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+
+
+.sp {
+    background-color: rgb(253, 255, 255);
+    margin: 0;
+    padding: 02rem 0.2rem;
+    padding: 0;
+    text-align: center;
+  }
+
+  .sp2 {
+    display: inline-block;
+    border: none;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+  .footer {
+        text-align: center;
+        background-color: black;
+        font-size: 12px;
+    color: honeydew;
+  }
+  .btnm {
+color: gold;
+border: none;
+background-color: black;
+border-left: black 15px solid;
+border-right: black 15px solid;
+  }
+  .spanf {
+      color: rgb(206, 182, 47);
+  }
+
+}
+        </style>
+
+    </head>
+
+    <body>
+        <header>
+
+            <nav class="navbar navbar-expand-lg  navbar-dark static-top navbgcolor fixed-top">
+                <nav class="container">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="./img/logo1.jfif" width="180" alt="" class="d-inline-block align-middle mr-2">
+                    </a>
+                    <button class="navbar-toggler navbtn" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="index.html" class="nav-link">HOME </a></li>
+                            <li class="nav-item"><a href="menu.html" class="nav-link">MENU</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">ABOUT & CONTACT</a></li>
+                        </ul>
+                        <a href="index.html" class="navbar-brand">
+                            <img src="./img/logo2.jfif" width="80" alt="" class="d-inline-block align-middle mr-2">
+                        </a>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="register.html" class="nav-link">REGJ. KLIENTI </a></li>
+                            <li class="nav-item"><a href="login.html" class="nav-link">LOGIN</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">LOGOUT</a></li>
+                        </ul>
+                        <a href="index.html" class="navbar-brand">
+                            <img src="./img/logo4.png" width="140" alt="" class="d-inline-block align-middle mr-2">
+                        </a>
+    
+                    </div>
+                </nav>
+            </nav>
+        </header>
+        <br>
+        <br>
+        <br>
+        <div id="about" class="w3-container w3-blue-grey w3-grayscale-min w3-xlarge w3-padding-64">
+
+            <h1 class="w3-center w3-jumbo">About</h1>
+
+            <h3>Happy Hour</h3>
+            <p>We all need a place to relax after work, so why not do it with a drink in your hand? Join us for Happy
+                Hour everyday from 7am to 11pm!.</p>
+
+
+
+
+            <p>We are proud of our interiors.</p>
+            <p class="w3-padding-16 w3-stretch">
+                <img src="img/img_restaurant.jpg" style="width:100%" alt="Restaurant">
+            </p>
+
+            <h1 class="w3-center w3-jumbo">CONTACT</h1>
+            <br>
+            <br>
+            <div class="w3-row">
+                <div class="w3-half">
+                    <h3>Adresa</h3>
+                    <p>Lagjja "Luigj Gurakuqi Bulevardi "Aqif Pasha"</p>
+                    <p>Elbasan, Albania, 3001</p>
+                </div>
+                <div class="w3-half">
+                    <h3>Kontakti</h3>
+                    <p>+355 688888888 / +355 688888888</p>
+                    <p>barone@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+        <br>
+        <div class="sp">
+            <ul class="list-inline">
+                <div class="sp2 estadoslogo">
+
+                    <li class="list-inline-item estadosfooter">
+
+                        <a href="https://www.facebook.com/Estados-Caf%C3%A8-Albania-1039445656155022/"
+                            class="navbar-brand">
+                            <img src="img/facebook.png" width="30" alt=""
+                                class="d-inline-block align-middle mr-2">
+                        </a>
+                        <a href="https://www.instagram.com/estadosalbania/?hl=en" class="navbar-brand">
+                            <img src="img/insta.jfif" width="30" alt=""
+                                class="d-inline-block align-middle mr-2">
+                        </a>
+
+                        <img src="img/estadoslogo1.jpg" width="160" alt=""
+                            class="d-inline-block align-middle mr-2">
+                    </li>
+                </div>
+                <div class="sp2 adealogo">
+                    <li class="list-inline-item ">
+
+                        <img src="img/logoadea.jpg" width="150" alt=""
+                            class="d-inline-block align-middle mr-2">
+
+                        <a href="https://www.instagram.com/pasticeriadea/?hl=en" class="navbar-brand">
+                            <img src="img/insta.jfif" width="30" alt=""
+                                class="d-inline-block align-middle mr-2">
+                        </a>
+                        <a href="https://www.facebook.com/muli.asllani/" class="navbar-brand">
+                            <img src="img/facebook.png" width="30" alt=""
+                                class="d-inline-block align-middle mr-2">
+                        </a>
+
+
+
+
+                    </li>
+
+            </ul>
+        </div>
+
+        <footer>
+
+
+            <div class="footer">
+
+                <p>© 2021 <span class="spanf">BAR&#127863ONE</span>. All Rights Reserved | Designed by <a
+                        href="https://www.facebook.com/aleksander.karai.3/" class="navbar-brand">
+                        <img src="img/facebook2.png" width="30" alt=""
+                            class="d-inline-block align-middle mr-2">
+                    </a>
+                    <a href="https://www.instagram.com/aleksanderkarai/" class="btn1">ALEKSANDRO KARAI</a><a
+                        href="https://www.instagram.com/aleksanderkarai/" class="navbar-brand">
+                        <img src="img/insta2.jfif" width="30" alt=""
+                            class="d-inline-block align-middle mr-2">
+                    </a>
+                </p>
+
+            </div>
+
+
+
+        </footer>
+    </body>
+
+    </html>
